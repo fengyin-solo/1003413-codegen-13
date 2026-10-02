@@ -35,3 +35,16 @@ body { margin: 0; background: #f6f8fb; color: #1f2937; }
 .error-text { color: #b42318; }
 .status-legend { display: flex; flex-wrap: wrap; gap: 12px; margin: 0 0 10px; font-size: 12px; color: var(--muted); }
 .legend-item { background: #eef2f7; border-radius: 999px; padding: 2px 10px; }
+.batch-console { background: #fff; border: 1px solid var(--border); border-radius: 8px; padding: 12px 14px; margin-bottom: 14px; }
+.batch-console h3 { margin: 0 0 6px; font-size: 14px; }
+.pick-group { margin-top: 10px; }
+.pick-group > span { display: block; font-size: 12px; color: var(--muted); margin-bottom: 4px; }
+.pick-list { display: flex; flex-wrap: wrap; gap: 6px 14px; align-items: center; }
+.pick-item { display: inline-flex; align-items: center; gap: 4px; font-size: 13px; }
+.console-actions { display: flex; gap: 8px; align-items: center; margin: 12px 0 8px; }
+.hint-text { font-size: 12px; color: var(--muted); margin: 4px 0; }
+.notice-text { color: #15803d; font-size: 13px; margin: 4px 0; }
+.conflict-tag { display: inline-block; background: #fef3c7; color: #92400e; border-radius: 4px; padding: 1px 6px; font-size: 12px; margin: 1px 4px 1px 0; }
+.conflict-tag.overlap { background: #fee2e2; color: #b42318; }
+.ok-tag { color: #15803d; font-size: 12px; }
+.batch-detail-row td { background: #f8fafc; }
